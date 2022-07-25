@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibPadarosa", "LibPadarosa\LibPadarosa.csproj", "{20A2BF65-5B28-4A5B-9EE7-22152D92518F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Padarosa", "Padarosa\Padarosa.csproj", "{D34AF850-B50E-49F7-B042-20C41F166611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A2BF65-5B28-4A5B-9EE7-22152D92518F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A2BF65-5B28-4A5B-9EE7-22152D92518F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A2BF65-5B28-4A5B-9EE7-22152D92518F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A2BF65-5B28-4A5B-9EE7-22152D92518F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34AF850-B50E-49F7-B042-20C41F166611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34AF850-B50E-49F7-B042-20C41F166611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34AF850-B50E-49F7-B042-20C41F166611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34AF850-B50E-49F7-B042-20C41F166611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AD12C5D-4080-4256-B0E2-D9FB52282C08}
+	EndGlobalSection
+EndGlobal
