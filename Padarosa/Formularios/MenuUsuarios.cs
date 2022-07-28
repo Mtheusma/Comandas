@@ -50,6 +50,7 @@ namespace Padarosa.Formularios
                 u.NomeCompleto = txtCad.Text;
                 u.Email = txtEmailCad.Text;
                 u.Senha = txtSenhaCad.Text;
+                
                 // Chamar o Cadastrar:
                if (Banco.UsuarioDAO.Cadastrar(u) == true)
                 {

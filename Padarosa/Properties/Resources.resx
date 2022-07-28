@@ -118,16 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="miti-qYreP9QOdrk-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\miti-qYreP9QOdrk-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="miti-qYreP9QOdrk-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miti-qYreP9QOdrk-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="patrick-fore-16Vfy9BfLio-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patrick-fore-16Vfy9BfLio-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="miti-qYreP9QOdrk-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\miti-qYreP9QOdrk-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="miti-qYreP9QOdrk-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miti-qYreP9QOdrk-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motomoto-sc-5AyilLc8UeY-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motomoto-sc-5AyilLc8UeY-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drahomir-posteby-mach-Wg-f6yfzvHI-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drahomir-posteby-mach-Wg-f6yfzvHI-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drahomir-posteby-mach-Wg-f6yfzvHI-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drahomir-posteby-mach-Wg-f6yfzvHI-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frederico-almeida-mOykUIdBYTo-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frederico-almeida-mOykUIdBYTo-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olga-thelavart-HZm2XR0whdw-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olga-thelavart-HZm2XR0whdw-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

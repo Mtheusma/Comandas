@@ -31,18 +31,18 @@
             this.grbEdicao2 = new System.Windows.Forms.GroupBox();
             this.cmbCategoriaEd = new System.Windows.Forms.ComboBox();
             this.btnEdicao2 = new System.Windows.Forms.Button();
-            this.txtEmailEd = new System.Windows.Forms.TextBox();
+            this.txtPrecoEd = new System.Windows.Forms.TextBox();
             this.lblPrecoEd = new System.Windows.Forms.Label();
             this.lblNomeEd2 = new System.Windows.Forms.Label();
-            this.txtNomeCompletoEd = new System.Windows.Forms.TextBox();
+            this.txtNomeEd = new System.Windows.Forms.TextBox();
             this.lblCategoriaEd = new System.Windows.Forms.Label();
             this.grbCadastro2 = new System.Windows.Forms.GroupBox();
-            this.cmbCategoriaCad = new System.Windows.Forms.ComboBox();
+            this.cmbIdCategoriaCad = new System.Windows.Forms.ComboBox();
             this.btnCadastrar2 = new System.Windows.Forms.Button();
-            this.txtSenhaCad = new System.Windows.Forms.TextBox();
+            this.txtPrecoCad = new System.Windows.Forms.TextBox();
             this.lblPrecoCad = new System.Windows.Forms.Label();
             this.lblNomeCad2 = new System.Windows.Forms.Label();
-            this.txtEmailCad = new System.Windows.Forms.TextBox();
+            this.txtNomeCad = new System.Windows.Forms.TextBox();
             this.lblCategoriaCad = new System.Windows.Forms.Label();
             this.dgvUsuarios2 = new System.Windows.Forms.DataGridView();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -55,10 +55,10 @@
             // 
             this.grbEdicao2.Controls.Add(this.cmbCategoriaEd);
             this.grbEdicao2.Controls.Add(this.btnEdicao2);
-            this.grbEdicao2.Controls.Add(this.txtEmailEd);
+            this.grbEdicao2.Controls.Add(this.txtPrecoEd);
             this.grbEdicao2.Controls.Add(this.lblPrecoEd);
             this.grbEdicao2.Controls.Add(this.lblNomeEd2);
-            this.grbEdicao2.Controls.Add(this.txtNomeCompletoEd);
+            this.grbEdicao2.Controls.Add(this.txtNomeEd);
             this.grbEdicao2.Controls.Add(this.lblCategoriaEd);
             this.grbEdicao2.Location = new System.Drawing.Point(491, 258);
             this.grbEdicao2.Name = "grbEdicao2";
@@ -83,13 +83,14 @@
             this.btnEdicao2.TabIndex = 6;
             this.btnEdicao2.Text = "EDITAR";
             this.btnEdicao2.UseVisualStyleBackColor = true;
+            this.btnEdicao2.Click += new System.EventHandler(this.btnEdicao2_Click);
             // 
-            // txtEmailEd
+            // txtPrecoEd
             // 
-            this.txtEmailEd.Location = new System.Drawing.Point(116, 81);
-            this.txtEmailEd.Name = "txtEmailEd";
-            this.txtEmailEd.Size = new System.Drawing.Size(100, 20);
-            this.txtEmailEd.TabIndex = 5;
+            this.txtPrecoEd.Location = new System.Drawing.Point(116, 81);
+            this.txtPrecoEd.Name = "txtPrecoEd";
+            this.txtPrecoEd.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecoEd.TabIndex = 5;
             // 
             // lblPrecoEd
             // 
@@ -109,12 +110,12 @@
             this.lblNomeEd2.TabIndex = 3;
             this.lblNomeEd2.Text = "NOME";
             // 
-            // txtNomeCompletoEd
+            // txtNomeEd
             // 
-            this.txtNomeCompletoEd.Location = new System.Drawing.Point(116, 47);
-            this.txtNomeCompletoEd.Name = "txtNomeCompletoEd";
-            this.txtNomeCompletoEd.Size = new System.Drawing.Size(100, 20);
-            this.txtNomeCompletoEd.TabIndex = 2;
+            this.txtNomeEd.Location = new System.Drawing.Point(116, 47);
+            this.txtNomeEd.Name = "txtNomeEd";
+            this.txtNomeEd.Size = new System.Drawing.Size(100, 20);
+            this.txtNomeEd.TabIndex = 2;
             // 
             // lblCategoriaEd
             // 
@@ -127,12 +128,12 @@
             // 
             // grbCadastro2
             // 
-            this.grbCadastro2.Controls.Add(this.cmbCategoriaCad);
+            this.grbCadastro2.Controls.Add(this.cmbIdCategoriaCad);
             this.grbCadastro2.Controls.Add(this.btnCadastrar2);
-            this.grbCadastro2.Controls.Add(this.txtSenhaCad);
+            this.grbCadastro2.Controls.Add(this.txtPrecoCad);
             this.grbCadastro2.Controls.Add(this.lblPrecoCad);
             this.grbCadastro2.Controls.Add(this.lblNomeCad2);
-            this.grbCadastro2.Controls.Add(this.txtEmailCad);
+            this.grbCadastro2.Controls.Add(this.txtNomeCad);
             this.grbCadastro2.Controls.Add(this.lblCategoriaCad);
             this.grbCadastro2.Location = new System.Drawing.Point(93, 249);
             this.grbCadastro2.Name = "grbCadastro2";
@@ -141,13 +142,13 @@
             this.grbCadastro2.TabStop = false;
             this.grbCadastro2.Text = "CADASTRAR :";
             // 
-            // cmbCategoriaCad
+            // cmbIdCategoriaCad
             // 
-            this.cmbCategoriaCad.FormattingEnabled = true;
-            this.cmbCategoriaCad.Location = new System.Drawing.Point(95, 113);
-            this.cmbCategoriaCad.Name = "cmbCategoriaCad";
-            this.cmbCategoriaCad.Size = new System.Drawing.Size(121, 21);
-            this.cmbCategoriaCad.TabIndex = 8;
+            this.cmbIdCategoriaCad.FormattingEnabled = true;
+            this.cmbIdCategoriaCad.Location = new System.Drawing.Point(95, 113);
+            this.cmbIdCategoriaCad.Name = "cmbIdCategoriaCad";
+            this.cmbIdCategoriaCad.Size = new System.Drawing.Size(121, 21);
+            this.cmbIdCategoriaCad.TabIndex = 8;
             // 
             // btnCadastrar2
             // 
@@ -157,13 +158,14 @@
             this.btnCadastrar2.TabIndex = 6;
             this.btnCadastrar2.Text = "CADASTRAR";
             this.btnCadastrar2.UseVisualStyleBackColor = true;
+            this.btnCadastrar2.Click += new System.EventHandler(this.btnCadastrar2_Click);
             // 
-            // txtSenhaCad
+            // txtPrecoCad
             // 
-            this.txtSenhaCad.Location = new System.Drawing.Point(116, 81);
-            this.txtSenhaCad.Name = "txtSenhaCad";
-            this.txtSenhaCad.Size = new System.Drawing.Size(100, 20);
-            this.txtSenhaCad.TabIndex = 5;
+            this.txtPrecoCad.Location = new System.Drawing.Point(116, 81);
+            this.txtPrecoCad.Name = "txtPrecoCad";
+            this.txtPrecoCad.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecoCad.TabIndex = 5;
             // 
             // lblPrecoCad
             // 
@@ -183,12 +185,12 @@
             this.lblNomeCad2.TabIndex = 3;
             this.lblNomeCad2.Text = "NOME";
             // 
-            // txtEmailCad
+            // txtNomeCad
             // 
-            this.txtEmailCad.Location = new System.Drawing.Point(116, 47);
-            this.txtEmailCad.Name = "txtEmailCad";
-            this.txtEmailCad.Size = new System.Drawing.Size(100, 20);
-            this.txtEmailCad.TabIndex = 2;
+            this.txtNomeCad.Location = new System.Drawing.Point(116, 47);
+            this.txtNomeCad.Name = "txtNomeCad";
+            this.txtNomeCad.Size = new System.Drawing.Size(100, 20);
+            this.txtNomeCad.TabIndex = 2;
             // 
             // lblCategoriaCad
             // 
@@ -209,6 +211,7 @@
             this.dgvUsuarios2.ReadOnly = true;
             this.dgvUsuarios2.Size = new System.Drawing.Size(614, 212);
             this.dgvUsuarios2.TabIndex = 5;
+            this.dgvUsuarios2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProdutos_CellClick);
             // 
             // lblTitulo
             // 
@@ -245,21 +248,21 @@
 
         private System.Windows.Forms.GroupBox grbEdicao2;
         private System.Windows.Forms.Button btnEdicao2;
-        private System.Windows.Forms.TextBox txtEmailEd;
+        private System.Windows.Forms.TextBox txtPrecoEd;
         private System.Windows.Forms.Label lblPrecoEd;
         private System.Windows.Forms.Label lblNomeEd2;
-        private System.Windows.Forms.TextBox txtNomeCompletoEd;
+        private System.Windows.Forms.TextBox txtNomeEd;
         private System.Windows.Forms.Label lblCategoriaEd;
         private System.Windows.Forms.GroupBox grbCadastro2;
         private System.Windows.Forms.Button btnCadastrar2;
-        private System.Windows.Forms.TextBox txtSenhaCad;
+        private System.Windows.Forms.TextBox txtPrecoCad;
         private System.Windows.Forms.Label lblPrecoCad;
         private System.Windows.Forms.Label lblNomeCad2;
-        private System.Windows.Forms.TextBox txtEmailCad;
+        private System.Windows.Forms.TextBox txtNomeCad;
         private System.Windows.Forms.Label lblCategoriaCad;
         private System.Windows.Forms.DataGridView dgvUsuarios2;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.ComboBox cmbCategoriaCad;
+        private System.Windows.Forms.ComboBox cmbIdCategoriaCad;
         private System.Windows.Forms.ComboBox cmbCategoriaEd;
     }
 }

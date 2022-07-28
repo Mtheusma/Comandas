@@ -48,6 +48,7 @@
             this.lblTitulo.Size = new System.Drawing.Size(196, 24);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "ACESSE POR AQUI";
+            this.lblTitulo.Click += new System.EventHandler(this.lblTitulo_Click);
             // 
             // lblEmail
             // 

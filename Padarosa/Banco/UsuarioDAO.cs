@@ -87,16 +87,16 @@ namespace Padarosa.Banco
             string comando;
             if (u.Senha!= "")
             {
-                comando = "UPDATE usuarios" +
-               "SET nome_completo = @nome," +
-               "email = @email" +
-               "senha = @senha WHERE id = @id";
+                comando = "UPDATE usuarios " +
+               "SET nome_completo = @nome, " +
+               "email = @email, " +
+               "senha = @senha WHERE id = @id ";
             }
             else
             {
-                comando = "UPDATE usuarios" +
-              "SET nome_completo = @nome," +
-              "email = @email" +
+                comando = "UPDATE usuarios " +
+              "SET nome_completo = @nome, " +
+              "email = @email " +
               "WHERE id = @id";
             }
                
